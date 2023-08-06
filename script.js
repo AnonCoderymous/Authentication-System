@@ -109,7 +109,7 @@ signup_button.onclick = function() {
 		return;
 	}
 
-	// make a request to server using fetch API
+	// make a request to server using XMLHttpRequest API
 	if(window.XMLHttpRequest) {
 
 		//prefill form data from form
