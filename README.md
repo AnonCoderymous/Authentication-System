@@ -20,6 +20,7 @@ It is a simple signup and login system. A user can create an account to the site
 6. http://localhost/func.php - Form validation, Registration and Login functions.
 7. http://localhost/home.php - Home page.
 8. http://localhost/logout.php - Log out php file to deauthenticate user.
+9. http://localhost/auth_db.sql - Database file
 
 # Sign up Page
 ![Screenshot (118)](https://github.com/AnonCoderymous/Authentication-System/assets/100998097/af017ee9-5996-4fdc-b050-d254fdafb98e)
