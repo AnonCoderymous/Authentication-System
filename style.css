@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Sans', sans-serif;
+}
+
+body {
+	background-color: #7CB9E8;
+}
+
+.form_area, .welcome, .unauth_div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.errorMsgs {
+	display: none;
+	visibility: hidden;
+	text-align: center;
+	background-color: red;
+	padding: 5px 8px;
+	box-shadow: 0px 1px 4px 5px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	margin-bottom: .5rem;
+	border-radius: 10px;
+}
+
+.form_area h1 {
+	color: black;
+	margin-bottom: 1rem;
+	letter-spacing: 1.5px;
+}
+
+.name {
+	display: flex;
+	flex-direction: row;
+	width: 105%;
+	justify-content: space-between;
+}
+
+.name input {
+	width: 90%;
+}
+
+form[name=SignupForm] {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+form[name=LoginForm] {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input{
+	display: block;
+	margin-bottom: .8rem;
+	width: 100%;
+	padding: 10px 12px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: none;
+	outline: 1px solid lightgrey;
+	transition: 0.3s ease;
+}
+
+form input:focus {
+	outline: 1px solid hotpink;
+	transition: 0.3s ease;
+}
+
+form input[type=submit] {
+	background: hotpink;
+	color: white;
+	text-transform: uppercase;
+	opacity: 0.8;
+	box-shadow: 0px 1px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type=submit]:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.login_link_area {
+	text-align: center;
+}
+
+.login_link_area > a {
+	color: grey;
+	text-decoration: none;
+}
+
+.login_link_area > a:hover {
+	text-decoration: underline;
+}
+
+.unauth_div {
+}
