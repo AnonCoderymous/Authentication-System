@@ -1,5 +1,5 @@
 const form = document.forms[0],
-inputs = document.querySelectorAll('input:not(#signup)'),
+inputs = document.querySelectorAll('input:not(#login)'),
 errorMsgArea = document.querySelector('.errorMsgs'),
 email = document.querySelector('#email'),
 password = document.querySelector('#password'),
