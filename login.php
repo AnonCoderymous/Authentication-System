@@ -17,7 +17,7 @@
 				<input type="text" name="email" tag="email" id="email" placeholder="Email Address">
 				<label for="password">Password</label>
 				<input type="password" name="pass" tag="pass" id="password" placeholder="Password">
-				<input type="submit" name="signup" id="signup" value="login">
+				<input type="submit" name="login" id="login" value="login">
 				<div class="login_link_area">
 					New user?
 					<a href="index.php">SIGNUP</a>
