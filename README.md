@@ -1,5 +1,5 @@
 # Authentication-System (Description)
-It is a simple signup and login system. A user can create an account to the site which will check the user if already been registered to the site. If not, then user can create account. Then she can login to the account with same credentials. Home page only allows access to authorized user of the site. A very basic authorization system.
+It is a simple signup and login system. A user can create an account to the site which will check the user if already been registered to the site. If not, then user can create account. Then user can login to the account with same credentials. Home page only allows access to authorized user of the site. A very basic authorization system.
 
 # Technologies:-
   # Frontend :- 
