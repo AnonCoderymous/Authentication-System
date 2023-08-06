@@ -35,7 +35,7 @@
 				$response[ 'msg' ] = 'User with that email does not exists.';
 		}else{
 			// if user exists
-			// show user exists prompt
+			// then authenticate the user
 			if(loginUser($conn, $email, md5($pass)) === 0) {
 				$response[ 'error' ] = true;
 				$response[ 'msg' ] = 'Incorrect username and password.';
