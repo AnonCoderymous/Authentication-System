@@ -22,10 +22,11 @@ It is a simple signup and login system. A user can create an account to the site
 8. http://localhost/logout.php - Log out php file to deauthenticate user.
 
 # Sign up Page
-![Screenshot (115)](https://github.com/AnonCoderymous/Authentication-System/assets/100998097/66de76f8-76cf-4346-84e3-8c4c4b8da088)
+![Screenshot (118)](https://github.com/AnonCoderymous/Authentication-System/assets/100998097/af017ee9-5996-4fdc-b050-d254fdafb98e)
+
 
 # Login Page
-![Screenshot (116)](https://github.com/AnonCoderymous/Authentication-System/assets/100998097/97ff706b-4a25-4317-bd7d-a05ccc6de703)
+![Screenshot (119)](https://github.com/AnonCoderymous/Authentication-System/assets/100998097/bdf71d2d-b759-4397-ae93-105e9faa64fc)
 
 
 # Opinion
